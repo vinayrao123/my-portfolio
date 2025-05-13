@@ -16,49 +16,45 @@ function App() {
 
       <section className="summary">
         <h2>About Me</h2>
-        <p>I am a 2X founder with a passion for sports and education technology. With 13 years of experience in technology, I've worked as a test engineer, platform developer, technology leader, and engineering manager across the US and India.</p>
-        <p>My first startup, Taproots.ai, focused on making tech advancements accessible to grassroots sports academies and athletes. Currently, I'm building CricketIQ, a 2D mobile game that's revolutionizing cricket engagement.</p>
+        <p>I am a 2X founder with a passion for sports and education technology. With over 14 years of experience in technology, I've worked as a test engineer, platform developer, technology leader, and engineering manager across US and India.</p>
+        <p>My first startup, Taproots.ai, focused on making tech advancements accessible to grassroots sports academies and athletes. In my current startup, PagalFan, I have built a 2D mobile game called CricketIQ that's bringing a new way to engage cricket enthusiasts.</p>
         <p>I hold a Masters degree in Computer Networking from North Carolina State University and an advanced certification in AI/ML from IIIT-Hyderabad. I actively mentor students and enjoy writing about technical topics in accessible ways.</p>
       </section>
 
       <section className="experience">
         <h2>Professional Experience</h2>
         <CaseStudy
-          title="PagalSports India Pvt Ltd - Co-founder"
-          period="March 2024 - Present"
-          problem="Building CricketIQ, a mobile game to engage cricket fans"
-          insight="Leveraging modern tech stack for scalable mobile gaming"
-          role="Co-founder & Technical Lead"
-          process="React Native, Python, Google's Gemini, Supabase, Firebase"
-          impact="Successfully launched on both PlayStore and AppStore"
-          link="https://play.google.com/store/apps/details?id=com.pagalfan"
+          Title="PagalSports India Pvt Ltd - Co-founder"
+          Period="March 2024 - Present"
+          Challenge="Building CricketIQ, a mobile game to engage cricket fans"
+          Role="Co-founder & CTO"
+          TechStack="React Native, Python, Google's Gemini API, Supabase, Firebase, AWS LightSail"
+          Impact="Successfully launched on both PlayStore and AppStore and acquired over 3000 users in 3 weeks"
+          Link="https://play.google.com/store/apps/details?id=com.pagalfan"
         />
         <CaseStudy
-          title="Taproots AI Pvt Ltd - Co-founder"
-          period="January 2022 - February 2024"
-          problem="Making tech advancements accessible to grassroots sports"
-          insight="Combining AI with sports training"
-          role="Co-founder & Technical Lead"
-          process="Flutter, Firebase, Golang, Python, OpenCV, Mediapipe"
-          impact="Developed innovative solutions for sports academies"
+          Title="Taproots AI Pvt Ltd - Co-founder"
+          Period="January 2022 - February 2024"
+          Challenge="Making tech advancements accessible to grassroots sports"
+          Role="Founder & CEO"
+          TechStack="Flutter, Firebase, Golang, Python, OpenCV, Mediapipe"
+          Impact="Acquired 3 paying customer (B2B) and 150+ users (B2C)"
         />
         <CaseStudy
-          title="Cohesity - Engineering Manager"
-          period="March 2020 - January 2022"
-          problem="Scaling developer tools and resources"
-          insight="Building tools that accelerate product development"
-          role="Engineering Manager, Developer Experience"
-          process="Led cross-geo team of 11, scaled tools from 100 to 500+ users"
-          impact="Successfully scaled team from 5 to 11 members, enabled career growth"
+          Title="Cohesity - Engineering Manager"
+          Period="March 2020 - January 2022"
+          Challenge="Scaling developer tools and resources"
+          Role="Engineering Manager, Developer Experience"
+          TechStack="Led cross-geo team of 11, scaled users of internal tools from 100 to 500+ users"
+          Impact="Successfully scaled team from 5 to 11 members, enabled career growth for team members"
         />
         <CaseStudy
-          title="Cisco Systems - Technical Leader"
-          period="June 2016 - March 2020"
-          problem="Leading technical aspects of product development"
-          insight="Innovative AI-driven solutions for testing and development"
-          role="Technical Leader, Functional Test and Tooling"
-          process="Architected and developed AI-driven tools, led team of 14"
-          impact="Published research papers, developed multiple successful tools"
+          Title="Cisco Systems - Technical Leader"
+          Period="June 2016 - March 2020"
+          Challenge="Leading technical aspects of product development"
+          Role="Technical Leader, Functional Test and Tooling"
+          TechStack="Architected and developed AI-driven tools to help improve the automation framework, led team of 14"
+          Impact="Published research papers, developed multiple successful tools"
         />
       </section>
 
