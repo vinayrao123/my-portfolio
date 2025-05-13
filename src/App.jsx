@@ -38,7 +38,7 @@ function App() {
           Challenge="Making tech advancements accessible to grassroots sports"
           Role="Founder & CEO"
           TechStack="Flutter, Firebase, Golang, Python, OpenCV, Mediapipe"
-          Impact="Acquired 3 paying customer (B2B) and 150+ users (B2C)"
+          Impact="Acquired 3 paying customers (B2B) and 150+ users (B2C)"
         />
         <CaseStudy
           Title="Cohesity - Engineering Manager"
@@ -80,7 +80,7 @@ function App() {
         />
         <Publication
           title="AI Driven Test Tag Predictor"
-          venue="Test Data Commons"
+          venue="Technical Disclosure Commons"
           link="https://www.tdcommons.org/dpubs_series/2145/"
           description="Published research on automated test tag prediction using AI"
         />
