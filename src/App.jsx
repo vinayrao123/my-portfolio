@@ -1,5 +1,6 @@
 import './App.css';
 import CaseStudy from './components/CaseStudy';
+import Publication from './components/Publication';
 
 function App() {
   return (
@@ -58,6 +59,46 @@ function App() {
           role="Technical Leader, Functional Test and Tooling"
           process="Architected and developed AI-driven tools, led team of 14"
           impact="Published research papers, developed multiple successful tools"
+        />
+      </section>
+
+      <section className="publications">
+        <h2>Publications & Research</h2>
+        <Publication
+          title="On-Device AI for Chat Applications: Enhancing Privacy and Productivity through Tonality-Driven Paraphrasing"
+          venue="ICT4SD 2025"
+          date="July 17-19, 2025"
+          description="Selected for presentation at ICT4SD 2025 conference"
+        />
+        <Publication
+          title="Using Natural Language Processing to Translate Plain Text into Pythonic Syntax in Kannada"
+          venue="ResearchGate"
+          link="https://www.researchgate.net/publication/345944524_Using_Natural_Language_Processing_to_Translate_Plain_Text_into_Pythonic_Syntax_in_Kannada"
+        />
+        <Publication
+          title="AI Model to Predict System Operation Failures using Incremental Log Analysis"
+          venue="Cisco Developer Conference"
+          date="December 2019"
+          link="https://medium.com/analytics-vidhya/ai-model-to-predict-system-operation-failures-using-incremental-log-analysis-using-the-fast-ai-2764d4c4cf04"
+          description="Presented at Cisco developer conference, focusing on AI-driven failure prediction based on incremental log analysis"
+        />
+        <Publication
+          title="AI Driven Test Tag Predictor"
+          venue="Test Data Commons"
+          link="https://www.tdcommons.org/dpubs_series/2145/"
+          description="Published research on automated test tag prediction using AI"
+        />
+        <Publication
+          title="AI Bug Label Predictor"
+          venue="Medium"
+          link="https://medium.com/@vinayrao/associating-bug-labels-automatically-using-multi-label-classification-4459d320b614"
+          description="Research on automatic bug label prediction using multi-label classification"
+        />
+        <Publication
+          title="Testing and Troubleshooting Kubernetes Clusters Made Easy"
+          venue="Medium"
+          link="https://medium.com/@vinayrao/testing-and-troubleshooting-kubernetes-clusters-made-a-little-easy-cb842b205640"
+          description="Technical article on log-collector utility for Kubernetes clusters"
         />
       </section>
 

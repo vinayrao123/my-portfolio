@@ -197,3 +197,75 @@ section h2 {
   }
 }
 
+.publications {
+  margin-bottom: 4rem;
+}
+
+.publication {
+  background: #fff;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.publication:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.publication-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 0.5rem;
+}
+
+.publication-header h3 {
+  font-size: 1.2rem;
+  color: #2c3e50;
+  margin: 0;
+  flex: 1;
+}
+
+.publication-header h3 a {
+  color: #2c3e50;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.publication-header h3 a:hover {
+  color: #3498db;
+}
+
+.publication-date {
+  color: #666;
+  font-size: 0.9rem;
+  white-space: nowrap;
+  margin-left: 1rem;
+}
+
+.publication-venue {
+  color: #3498db;
+  font-weight: 500;
+  margin: 0.5rem 0;
+}
+
+.publication-description {
+  color: #666;
+  margin: 0.5rem 0 0 0;
+  font-size: 0.95rem;
+}
+
+@media (max-width: 768px) {
+  .publication-header {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .publication-date {
+    margin-left: 0;
+  }
+}
+
