@@ -65,7 +65,6 @@ function App() {
         <Publication
           title="On-Device AI for Chat Applications: Enhancing Privacy and Productivity through Tonality-Driven Paraphrasing"
           venue="ICT4SD 2025"
-          date="July 17-19, 2025"
           description="Selected for presentation at ICT4SD 2025 conference"
         />
         <Publication
@@ -76,7 +75,6 @@ function App() {
         <Publication
           title="AI Model to Predict System Operation Failures using Incremental Log Analysis"
           venue="Cisco Developer Conference"
-          date="December 2019"
           link="https://medium.com/analytics-vidhya/ai-model-to-predict-system-operation-failures-using-incremental-log-analysis-using-the-fast-ai-2764d4c4cf04"
           description="Presented at Cisco developer conference, focusing on AI-driven failure prediction based on incremental log analysis"
         />
