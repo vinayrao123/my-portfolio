@@ -1,4 +1,4 @@
-function CaseStudy({ Title, Period, Challenge, Role, TechStack, Impact, Link }) {
+function CaseStudy({ Title, Period, Challenge, Role, TechStack, Impact, Link, ProductManagement }) {
   return (
     <div className="case-study">
       <div className="case-study-header">
@@ -8,6 +8,9 @@ function CaseStudy({ Title, Period, Challenge, Role, TechStack, Impact, Link }) 
       <div className="case-study-content">
         <p><strong>Challenge:</strong> {Challenge}</p>
         <p><strong>Role:</strong> {Role}</p>
+        {ProductManagement && (
+          <p><strong>Product Management:</strong> {ProductManagement}</p>
+        )}
         <p><strong>Tech Stack:</strong> {TechStack}</p>
         <p><strong>Impact:</strong> {Impact}</p>
         {Link && (
