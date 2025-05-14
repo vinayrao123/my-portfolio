@@ -105,6 +105,7 @@ section h2 {
   margin-bottom: 2rem;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   transition: transform 0.2s, box-shadow 0.2s;
+  text-align: left;
 }
 
 .case-study:hover {
@@ -117,43 +118,45 @@ section h2 {
   justify-content: space-between;
   align-items: flex-start;
   margin-bottom: 1.5rem;
+  gap: 2rem;
 }
 
 .case-study-title-section {
   flex: 1;
+  text-align: left;
+  min-width: 0;
 }
 
 .case-study-title-section h3 {
   margin: 0 0 0.5rem 0;
+  font-size: 1.5rem;
+  color: #2c3e50;
+  line-height: 1.3;
+  text-align: left;
 }
 
 .case-study-title-section .location {
   margin: 0;
   color: #666;
   font-size: 0.95rem;
-}
-
-.case-study-title-section h3 {
-  font-size: 1.5rem;
-  color: #2c3e50;
-}
-
-.location {
-  display: block;
-  color: #666;
-  font-size: 0.9rem;
   font-style: italic;
+  text-align: left;
 }
 
 .period {
   color: #666;
   font-size: 0.9rem;
   white-space: nowrap;
-  margin-left: 1rem;
+  padding-top: 0.25rem;
+}
+
+.case-study-content {
+  text-align: left;
 }
 
 .case-study-content p {
   margin-bottom: 1rem;
+  text-align: left;
 }
 
 .case-study-content strong {
@@ -162,7 +165,7 @@ section h2 {
 
 .case-study-link {
   margin-top: 1.5rem;
-  text-align: right;
+  text-align: left;
 }
 
 .case-study-link a {
@@ -214,8 +217,14 @@ section h2 {
     gap: 0.5rem;
   }
 
+  .case-study-title-section {
+    text-align: left;
+    width: 100%;
+  }
+
   .period {
-    font-size: 0.8rem;
+    padding-top: 0;
+    margin-left: -10px;
   }
 }
 

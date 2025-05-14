@@ -18,7 +18,7 @@ function App() {
         <h2>About Me</h2>
         <p>I am a 2X founder with a passion for building products that help people and businesses. With over 14 years of experience in technology, I've worked as a test engineer, platform developer, technology leader, and engineering manager across US and India.</p>
         <p>My first startup, Taproots.ai, focused on making tech advancements accessible to grassroots sports academies and athletes. In my current startup, PagalFan, I have built a 2D mobile game called CricketIQ that's bringing a new way to engage cricket enthusiasts.</p>
-        <p>I hold a Masters degree in Computer Networking from North Carolina State University and an advanced certification in AI/ML from IIIT-Hyderabad. I actively mentor students and enjoy writing about technical topics in accessible ways.</p>
+        <p>I hold a Masters degree in Computer Networking from North Carolina State University and an advanced certification in AI/ML from IIIT-Hyderabad. I actively mentor students and enjoy writing about technical topics.</p>
       </section>
 
       <section className="experience">
@@ -56,7 +56,7 @@ function App() {
         <CaseStudy
           Title="Cisco Systems - Technical Leader"
           Period="June 2016 - March 2020"
-          Location="Bangalore, India"
+          Location="CA, USA and Bangalore, India"
           Challenge="Leading technical aspects of product development"
           Role="Technical Leader, Functional Test and Tooling"
           TechStack="Architected and developed AI-driven tools to help improve the automation framework, led team of 14"
