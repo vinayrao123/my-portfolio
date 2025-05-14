@@ -10,7 +10,7 @@ function App() {
         <div className="contact-info">
           <a href="http://www.linkedin.com/in/vinayrao27786" target="_blank" rel="noopener noreferrer">LinkedIn</a>
           <a href="mailto:reach.vinayrao@gmail.com">Email</a>
-          <span>Phone: +91-6361109595</span>
+          <a href="tel:+916361109595">Phone</a>
         </div>
       </header>
 
