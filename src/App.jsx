@@ -28,7 +28,7 @@ function App() {
           Period="March 2024 - Present"
           Challenge="Building CricketIQ, a mobile game to engage cricket fans"
           Role="Co-founder & CTO"
-          ProductManagement="Led product strategy from ideation to launch, defining core gameplay mechanics and retention loops. Integrated Google Gemini for marketing funnels and implemented analytics for DAU tracking and engagement metrics."
+          ProductManagement="Led product strategy from ideation to launch, defining core gameplay mechanics and retention loops. Integrated Google Gemini for marketing funnels (https://cricket-quiz-ai.pagalfan.com/) and implemented analytics for DAU tracking and engagement metrics."
           TechStack="React Native, Python, Google's Gemini API, Supabase, Firebase, AWS LightSail"
           Impact="Successfully launched on both PlayStore and AppStore and acquired over 3000 users in 3 weeks"
           Link="https://play.google.com/store/apps/details?id=com.pagalfan"
