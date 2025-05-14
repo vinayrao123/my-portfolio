@@ -4,7 +4,7 @@ function CaseStudy({ Title, Period, Challenge, Role, TechStack, Impact, Link, Pr
       <div className="case-study-header">
         <div className="case-study-title-section">
           <h3>{Title}</h3>
-          {Location && <span className="location">{Location}</span>}
+          {Location && <p className="location"><strong>{Location}</strong></p>}
         </div>
         {Period && <span className="period">{Period}</span>}
       </div>

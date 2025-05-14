@@ -26,41 +26,41 @@ function App() {
         <CaseStudy
           Title="PagalSports India Pvt Ltd - Co-founder"
           Period="March 2024 - Present"
+          Location="Bangalore, India"
           Challenge="Building CricketIQ, a mobile game to engage cricket fans"
           Role="Co-founder & CTO"
           ProductManagement="Led product strategy from ideation to launch, defining core gameplay mechanics and retention loops. Integrated Google Gemini for marketing funnels (https://cricket-quiz-ai.pagalfan.com/) and implemented analytics for DAU tracking and engagement metrics."
           TechStack="React Native, Python, Google's Gemini API, Supabase, Firebase, AWS LightSail"
           Impact="Successfully launched on both PlayStore and AppStore and acquired over 3000 users in 3 weeks with overall users on Android alone crossing 50K"
           Link="https://play.google.com/store/apps/details?id=com.pagalfan"
-          Location="Bangalore, India"
         />
         <CaseStudy
           Title="Taproots AI Pvt Ltd - Co-founder"
           Period="January 2022 - February 2024"
+          Location="Bangalore, India"
           Challenge="Making tech advancements accessible to grassroots sports"
           Role="Founder & CEO"
           ProductManagement="Conducted user research with academy owners and athletes to identify market gaps. Led product discovery, roadmap, and GTM strategy. Built and launched MVP in 4 months, achieving product-market fit with 3 paying customers."
           TechStack="Flutter, Firebase, Golang, Python, OpenCV, Mediapipe"
           Impact="Acquired 3 paying customers (B2B) and 150+ users (B2C)"
-          Location="Bangalore, India"
         />
         <CaseStudy
           Title="Cohesity - Engineering Manager"
           Period="March 2020 - January 2022"
+          Location="Bangalore, India"
           Challenge="Scaling developer tools and resources"
           Role="Engineering Manager, Developer Experience"
           TechStack="Led cross-geo team of 11, scaled users of internal tools from 100 to 500+ users"
           Impact="Successfully scaled team from 5 to 11 members, enabled career growth for team members"
-          Location="Bangalore, India"
         />
         <CaseStudy
           Title="Cisco Systems - Technical Leader"
           Period="June 2016 - March 2020"
+          Location="Bangalore, India"
           Challenge="Leading technical aspects of product development"
           Role="Technical Leader, Functional Test and Tooling"
           TechStack="Architected and developed AI-driven tools to help improve the automation framework, led team of 14"
           Impact="Published research papers, developed multiple successful tools"
-          Location="CA, USA and Bangalore, India"
         />
         <CaseStudy
           Title="Nuage Networks - Test Engineer"
