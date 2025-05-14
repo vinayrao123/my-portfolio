@@ -88,6 +88,7 @@ function App() {
           title="On-Device AI for Chat Applications: Enhancing Privacy and Productivity through Tonality-Driven Paraphrasing"
           venue="ICT4SD 2025"
           description="Selected for presentation at ICT4SD 2025 conference"
+          link="https://ict4sd.org/publication.php"
         />
         <Publication
           title="Using Natural Language Processing to Translate Plain Text into Pythonic Syntax in Kannada"
