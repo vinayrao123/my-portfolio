@@ -115,19 +115,32 @@ section h2 {
 .case-study-header {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: flex-start;
   margin-bottom: 1.5rem;
 }
 
-.case-study-header h3 {
+.case-study-title-section {
+  flex: 1;
+}
+
+.case-study-title-section h3 {
   font-size: 1.5rem;
   color: #2c3e50;
-  margin: 0;
+  margin: 0 0 0.5rem 0;
+}
+
+.location {
+  display: block;
+  color: #666;
+  font-size: 0.9rem;
+  font-style: italic;
 }
 
 .period {
   color: #666;
   font-size: 0.9rem;
+  white-space: nowrap;
+  margin-left: 1rem;
 }
 
 .case-study-content p {

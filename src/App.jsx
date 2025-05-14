@@ -32,6 +32,7 @@ function App() {
           TechStack="React Native, Python, Google's Gemini API, Supabase, Firebase, AWS LightSail"
           Impact="Successfully launched on both PlayStore and AppStore and acquired over 3000 users in 3 weeks with overall users on Android alone crossing 50K"
           Link="https://play.google.com/store/apps/details?id=com.pagalfan"
+          Location="Bangalore, India"
         />
         <CaseStudy
           Title="Taproots AI Pvt Ltd - Co-founder"
@@ -41,6 +42,7 @@ function App() {
           ProductManagement="Conducted user research with academy owners and athletes to identify market gaps. Led product discovery, roadmap, and GTM strategy. Built and launched MVP in 4 months, achieving product-market fit with 3 paying customers."
           TechStack="Flutter, Firebase, Golang, Python, OpenCV, Mediapipe"
           Impact="Acquired 3 paying customers (B2B) and 150+ users (B2C)"
+          Location="Bangalore, India"
         />
         <CaseStudy
           Title="Cohesity - Engineering Manager"
@@ -49,6 +51,7 @@ function App() {
           Role="Engineering Manager, Developer Experience"
           TechStack="Led cross-geo team of 11, scaled users of internal tools from 100 to 500+ users"
           Impact="Successfully scaled team from 5 to 11 members, enabled career growth for team members"
+          Location="Bangalore, India"
         />
         <CaseStudy
           Title="Cisco Systems - Technical Leader"
@@ -57,6 +60,25 @@ function App() {
           Role="Technical Leader, Functional Test and Tooling"
           TechStack="Architected and developed AI-driven tools to help improve the automation framework, led team of 14"
           Impact="Published research papers, developed multiple successful tools"
+          Location="CA, USA and Bangalore, India"
+        />
+        <CaseStudy
+          Title="Nuage Networks - Test Engineer"
+          Period="June 2015 - May 2016"
+          Challenge="Running functional tests for the product"
+          Role="Test Engineer"
+          TechStack="Python, TCL/TK"
+          Impact="Successfully ran functional tests for the product"
+          Location="CA, USA"
+        />
+        <CaseStudy
+          Title="Extreme Networks - Software Test Engineer"
+          Period="June 2011 - May 2014"
+          Challenge="Ensuring functional correctness of the product"
+          Role="Software Test Engineer"
+          TechStack="Python, TCL/TK"
+          Impact="Successfully ran functional tests for the product"
+          Location="NC, USA"
         />
       </section>
 
