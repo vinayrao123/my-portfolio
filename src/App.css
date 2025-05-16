@@ -275,7 +275,7 @@ section h2 {
 }
 
 .publication-header h3 a {
-  color: #2c3e50;
+  color: #3498db;
   text-decoration: none;
   transition: color 0.2s;
 }
@@ -292,7 +292,7 @@ section h2 {
 }
 
 .publication-venue {
-  color: #3498db;
+  color: #666;
   font-weight: 500;
   margin: 0.5rem 0;
 }
