@@ -48,6 +48,22 @@ function TaprootsExperience() {
             </div>
           </div>
         </div>
+
+        <div className="tile">
+          <h2>Certifications</h2>
+          <div className="certificate-item">
+            <h3>Course of Making India a Sporting Nation</h3>
+            <p>A certification program focused on sports development and nation building through sports.</p>
+            <a 
+              href="https://drive.google.com/file/d/1acmvjGN9Oisa80S47LssLRfw0SPJOCfe/view?usp=sharing" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="button"
+            >
+              View Certificate
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   );
