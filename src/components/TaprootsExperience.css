@@ -1,0 +1,82 @@
+.taproots-experience {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.taproots-experience h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.tiles-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.tile {
+  background: white;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.tile:hover {
+  transform: translateY(-5px);
+}
+
+.tile h2 {
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.tile p {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.demo-links {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.demo-item {
+  border-top: 1px solid #eee;
+  padding-top: 1rem;
+}
+
+.demo-item h3 {
+  color: #2c3e50;
+  font-size: 1.1rem;
+  margin-bottom: 0.8rem;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  background-color: #3498db;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.button:hover {
+  background-color: #2980b9;
+}
+
+@media (max-width: 768px) {
+  .tiles-container {
+    grid-template-columns: 1fr;
+  }
+  
+  .taproots-experience {
+    padding: 1rem;
+  }
+} 

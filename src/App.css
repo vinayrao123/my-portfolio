@@ -179,6 +179,20 @@ section h2 {
   color: #2980b9;
 }
 
+.experience-link {
+  display: inline-block;
+  color: #3498db;
+  text-decoration: none;
+  font-weight: 500;
+  margin-top: 0.5rem;
+  transition: color 0.2s ease-in-out;
+}
+
+.experience-link:hover {
+  color: #2980b9;
+  text-decoration: underline;
+}
+
 .education-item {
   margin-bottom: 1.5rem;
   padding: 1.5rem;

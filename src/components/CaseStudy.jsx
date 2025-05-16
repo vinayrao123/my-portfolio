@@ -18,7 +18,11 @@ function CaseStudy({ Title, Period, Challenge, Role, TechStack, Impact, Link, Pr
         <p><strong>Impact:</strong> {Impact}</p>
         {Link && (
           <p className="case-study-link">
-            <a href={Link} target="_blank" rel="noopener noreferrer">View Project →</a>
+            {typeof Link === 'string' ? (
+              <a href={Link} target="_blank" rel="noopener noreferrer">View Product →</a>
+            ) : (
+              Link
+            )}
           </p>
         )}
       </div>
