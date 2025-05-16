@@ -3,11 +3,29 @@ import { HashRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import CaseStudy from './components/CaseStudy';
 import Publication from './components/Publication';
 import TaprootsExperience from './components/TaprootsExperience';
+import Dialog from './components/Dialog';
+import { useState } from 'react';
 
 function App() {
+  const [dialog, setDialog] = useState({ isOpen: false, content: '', title: '' });
+
+  const showDialog = (content, title) => {
+    setDialog({ isOpen: true, content, title });
+  };
+
+  const closeDialog = () => {
+    setDialog({ isOpen: false, content: '', title: '' });
+  };
+
   return (
     <Router>
       <div className="app">
+        <Dialog 
+          isOpen={dialog.isOpen} 
+          onClose={closeDialog} 
+          content={dialog.content} 
+          title={dialog.title}
+        />
         <Routes>
           <Route path="/taproots-experience" element={<TaprootsExperience />} />
           <Route path="/" element={
@@ -16,8 +34,8 @@ function App() {
                 <h1>Vinay Rao</h1>
                 <div className="contact-info">
                   <a href="http://www.linkedin.com/in/vinayrao27786" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-                  <a href="mailto:reach.vinayrao@gmail.com">Email</a>
-                  <a href="tel:+916361109595">Phone</a>
+                  <a href="#" onClick={(e) => { e.preventDefault(); showDialog('reach.vinayrao@gmail.com', 'Email Address'); }}>Email</a>
+                  <a href="#" onClick={(e) => { e.preventDefault(); showDialog('+91 6361109595', 'Phone Number'); }}>Phone</a>
                 </div>
               </header>
 
