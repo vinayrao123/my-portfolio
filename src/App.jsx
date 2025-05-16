@@ -52,7 +52,7 @@ function App() {
                   Location="Bangalore, India"
                   Challenge="Making tech advancements accessible to grassroots sports and exploring the fan engagement space"
                   Role="Founder & CEO"
-                  ProductManagement="Conducted user research with academy owners and athletes to identify market gaps. Led product discovery, roadmap, and GTM strategy. Built and launched MVP in 4 months, achieving product-market fit with 3 paying customers for the SaaS product with 150+ grassroots athletes onboarded."
+                  ProductManagement="Conducted user research with academy owners and athletes to identify market gaps. Led product discovery, roadmap, and GTM strategy. Built & launched MVP in 4 months and acquired 3 paying customers for the SaaS product with 150+ grassroots athletes onboarded."
                   TechStack="Flutter, Firebase, Golang, Python, OpenCV, Mediapipe"
                   Impact="Acquired 3 paying customers (B2B) and 150+ users (B2C) for the SaaS product and for the fan engagement products, we were ranked #8 in the ICC (International Cricket Council) Fan Engagement Challenge 2023"
                   Link={<Link to="/taproots-experience" className="experience-link">View Product Demos</Link>}
