@@ -58,6 +58,15 @@ function App() {
                   Link={<Link to="/taproots-experience" className="experience-link">View Product Demos</Link>}
                 />
                 <CaseStudy
+                  Title="Guest Lecturer - Programming for Non-CS Students"
+                  Period="2018 - Present"
+                  Location="Bangalore, India"
+                  Challenge="Making coding feel less daunting to non computer science students"
+                  Role="Guest Lecturer"
+                  TechStack="Python"
+                  Impact="Published research work with students and helped develop a builder's mindset by reducing friction towards writing code"
+                />
+                <CaseStudy
                   Title="Cohesity - Engineering Manager"
                   Period="March 2020 - January 2022"
                   Location="Bangalore, India"
