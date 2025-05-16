@@ -28,6 +28,11 @@ function App() {
                 <p>I hold a Masters degree in Computer Networking from North Carolina State University and an advanced certification in AI/ML from IIIT-Hyderabad. I actively mentor students and enjoy writing about technical topics.</p>
               </section>
 
+              <section className="career-interests">
+                <h2>Career Interests</h2>
+                <p>I am seeking a product role where I can leverage my technical expertise alongside my entrepreneurial experience in product strategy and market understanding. My background in both technology and business, combined with strong communication skills, enables me to effectively bridge the gap between technical solutions and customer needs. I excel at translating complex technical concepts into clear business value and converting customer requirements into actionable technical outcomes. I am eager to join a team where I can apply these skills to drive meaningful product innovation and business growth.</p>
+              </section>
+
               <section className="experience">
                 <h2>Professional Experience</h2>
                 <CaseStudy
