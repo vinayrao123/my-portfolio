@@ -125,6 +125,12 @@ function App() {
               <section className="publications">
                 <h2>Publications & Research</h2>
                 <Publication
+                  title="Beyond Benchmarks: Introducing Sentiment Spread for Better LLM Summarization in Vertical-Specific Content"
+                  venue="Medium"
+                  description="Explored a new metric to improve LLM summarization in vertical-specific chat applications"
+                  link="https://medium.com/@vinayrao/beyond-benchmarks-introducing-sentiment-spread-for-better-llm-summarization-in-vertical-specific-1a3caed3b9f8"
+                />
+                <Publication
                   title="On-Device AI for Chat Applications: Enhancing Privacy and Productivity through Tonality-Driven Paraphrasing"
                   venue="ICT4SD 2025"
                   description="Selected for presentation at ICT4SD 2025 conference"
