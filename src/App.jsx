@@ -127,7 +127,7 @@ function App() {
                 <Publication
                   title="Beyond Benchmarks: Introducing Sentiment Spread for Better LLM Summarization in Vertical-Specific Content"
                   venue="Medium"
-                  description="Explored a new metric to improve LLM summarization in vertical-specific chat applications"
+                  description="Explored a new metric to improve LLM summarization in vertical-specific content summarization"
                   link="https://medium.com/@vinayrao/beyond-benchmarks-introducing-sentiment-spread-for-better-llm-summarization-in-vertical-specific-1a3caed3b9f8"
                 />
                 <Publication
