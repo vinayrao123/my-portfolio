@@ -3,6 +3,7 @@ import { HashRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import CaseStudy from './components/CaseStudy';
 import Publication from './components/Publication';
 import TaprootsExperience from './components/TaprootsExperience';
+import UberNewBetsUseCase from './components/UberNewBetsUseCase';
 import Dialog from './components/Dialog';
 import { useState } from 'react';
 
@@ -28,6 +29,7 @@ function App() {
         />
         <Routes>
           <Route path="/taproots-experience" element={<TaprootsExperience />} />
+          <Route path="/uber-new-bets-usecase" element={<UberNewBetsUseCase />} />
           <Route path="/" element={
             <>
               <header className="header">
@@ -49,6 +51,23 @@ function App() {
               <section className="career-interests">
                 <h2>Career Interests</h2>
                 <p>I am seeking a product role where I can leverage my technical expertise alongside my entrepreneurial experience in product strategy and market understanding. My background in both technology and business, combined with strong communication skills, enables me to effectively bridge the gap between technical solutions and customer needs. I excel at translating complex technical concepts into clear business value and converting customer requirements into actionable technical outcomes. I am eager to join a team where I can apply these skills to drive meaningful product innovation and business growth.</p>
+              </section>
+
+              <section className="product-case-studies">
+                <h2>Product Case Studies</h2>
+                <div className="case-study-item">
+                  <h3>Uber Vacations</h3>
+                  <p>A product hypothesis to increase revenue by increasing the number of transactions per user on the Uber app. This presentation explores a new product within the 
+                    Uber app that would allow users to manage all their on-ground transportation needs during vacations through the Uber app.</p>
+                  <a 
+                    href="https://www.figma.com/deck/mQV6eAhLbqCBAFYZz3uKFT/Uber-Vacations?node-id=1-42&t=HYqQtdOO8Y7DF6VZ-1" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="case-study-link"
+                  >
+                    View Presentation
+                  </a>
+                </div>
               </section>
 
               <section className="experience">
