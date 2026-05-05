@@ -1,4 +1,4 @@
-function CaseStudy({ Title, Period, Challenge, Role, TechStack, Impact, Link, ProductManagement, Location }) {
+function CaseStudy({ Title, Period, Challenge, Role, TechStack, Impact, Link, LinkText, ProductManagement, Location }) {
   return (
     <div className="case-study">
       <div className="case-study-header">
@@ -19,7 +19,7 @@ function CaseStudy({ Title, Period, Challenge, Role, TechStack, Impact, Link, Pr
         {Link && (
           <p className="case-study-link">
             {typeof Link === 'string' ? (
-              <a href={Link} target="_blank" rel="noopener noreferrer">View Product →</a>
+              <a href={Link} target="_blank" rel="noopener noreferrer">{LinkText || 'View Product →'}</a>
             ) : (
               Link
             )}

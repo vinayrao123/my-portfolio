@@ -44,13 +44,13 @@ function App() {
               <section className="summary">
                 <h2>About Me</h2>
                 <p>I am a 2X founder with a passion for building products that help people and businesses. With over 16 years of experience in technology, I've worked as a Sports Technology entrepreneur, platform tester and developer, technology leader, and engineering manager across US and India.</p>
-                <p>My first startup, Taproots.ai, focused on making tech advancements accessible to grassroots sports academies and athletes. In my current startup, PagalFan, I have built a 2D mobile game called CricketIQ that's bringing a new way to engage cricket enthusiasts.</p>
+                <p>My first startup, Taproots.ai, focused on making tech advancements accessible to grassroots sports academies and athletes. In my current startup, PagalFan, I have built a 2D mobile game called CricketIQ that's bringing a new way to engage cricket enthusiasts. I am currently also Head of Platform Engineering at Carver Agents, where I am building a regulatory risk intelligence platform for the Finance, Healthcare, and Supply-chain sectors.</p>
                 <p>I hold a Masters degree in Computer Networking from North Carolina State University and an advanced certification in AI/ML from IIIT-Hyderabad. I actively mentor students and enjoy writing about technical topics.</p>
               </section>
 
               <section className="career-interests">
                 <h2>Career Interests</h2>
-                <p>I am seeking a product role where I can leverage my technical expertise alongside my entrepreneurial experience in product strategy and market understanding. My background in both technology and business, combined with strong communication skills, enables me to effectively bridge the gap between technical solutions and customer needs. I excel at translating complex technical concepts into clear business value and converting customer requirements into actionable technical outcomes. I am eager to join a team where I can apply these skills to drive meaningful product innovation and business growth.</p>
+                <p>I am seeking a Solutions Architect role where I can bring together my deep technical background and hands-on experience building platforms from the ground up. Having worked across engineering, product, and pre-sales — and having founded two startups — I understand both the technical and business dimensions of complex problems. I am drawn to roles where I can engage directly with customers, understand their challenges, and design scalable, practical solutions that deliver real value. I thrive at the intersection of technical depth and customer-facing communication, translating requirements into architecture and architecture into outcomes.</p>
               </section>
 
               <section className="product-case-studies">
@@ -72,6 +72,18 @@ function App() {
 
               <section className="experience">
                 <h2>Professional Experience</h2>
+                <CaseStudy
+                  Title="Carver Agents - Head of Platform Engineering"
+                  Period="June 2025 - Present"
+                  Location="India"
+                  Challenge="Building a regulatory risk intelligence platform for Finance, Healthcare, and Supply-chain sectors"
+                  Role="Head of Platform Engineering"
+                  ProductManagement="Own end-to-end backend and frontend of the platform (regwatch.carveragents.ai). Designed a DAG-based system to support scalability, currently processing ~1500 feed URLs daily. Also contributing to pre-sales outreach and customer demos, and building proof-of-concepts to showcase platform capabilities."
+                  TechStack="DAG-based distributed system design, full-stack platform ownership (backend + frontend)"
+                  Impact="Live regulatory intelligence platform serving Finance, Healthcare, and Supply-chain sectors with 1500+ feed URLs processed daily"
+                  Link="https://www.youtube.com/watch?v=UGaOHXnGIUs"
+                  LinkText="Product Usecase →"
+                />
                 <CaseStudy
                   Title="PagalSports India Pvt Ltd - Co-founder"
                   Period="March 2024 - Present"
