@@ -12,7 +12,7 @@ function CaseStudy({ Title, Period, Challenge, Role, TechStack, Impact, Link, Li
         <p><strong>Challenge:</strong> {Challenge}</p>
         <p><strong>Role:</strong> {Role}</p>
         {ProductManagement && (
-          <p><strong>Product Management:</strong> {ProductManagement}</p>
+          <p><strong>Execution:</strong> {ProductManagement}</p>
         )}
         <p><strong>Tech Stack:</strong> {TechStack}</p>
         <p><strong>Impact:</strong> {Impact}</p>

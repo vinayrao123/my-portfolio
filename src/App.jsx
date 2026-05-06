@@ -44,7 +44,7 @@ function App() {
               <section className="summary">
                 <h2>About Me</h2>
                 <p>I am a 2X founder with a passion for building products that help people and businesses. With over 16 years of experience in technology, I've worked as a Sports Technology entrepreneur, platform tester and developer, technology leader, and engineering manager across US and India.</p>
-                <p>My first startup, Taproots.ai, focused on making tech advancements accessible to grassroots sports academies and athletes. In my current startup, PagalFan, I have built a 2D mobile game called CricketIQ that's bringing a new way to engage cricket enthusiasts. I am currently also Head of Platform Engineering at Carver Agents, where I am building a regulatory risk intelligence platform for the Finance, Healthcare, and Supply-chain sectors.</p>
+                <p>My first startup, Taproots.ai, focused on making tech advancements accessible to grassroots sports academies and athletes. In my 2nd startup, PagalFan, I have built a 2D mobile game called CricketIQ that's bringing a new way to engage cricket enthusiasts. I am currently also Head of Platform Engineering at Carver Agents, where I am building a regulatory risk intelligence platform for the Finance, Healthcare, and Supply-chain sectors.</p>
                 <p>I hold a Masters degree in Computer Networking from North Carolina State University and an advanced certification in AI/ML from IIIT-Hyderabad. I actively mentor students and enjoy writing about technical topics.</p>
               </section>
 
@@ -53,21 +53,49 @@ function App() {
                 <p>I am seeking a Solutions Architect role where I can bring together my deep technical background and hands-on experience building platforms from the ground up. Having worked across engineering, product, and pre-sales — and having founded two startups — I understand both the technical and business dimensions of complex problems. I am drawn to roles where I can engage directly with customers, understand their challenges, and design scalable, practical solutions that deliver real value. I thrive at the intersection of technical depth and customer-facing communication, translating requirements into architecture and architecture into outcomes.</p>
               </section>
 
-              <section className="product-case-studies">
-                <h2>Product Case Studies</h2>
-                <div className="case-study-item">
-                  <h3>Uber Vacations</h3>
-                  <p>A product hypothesis to increase revenue by increasing the number of transactions per user on the Uber app. This presentation explores a new product within the 
-                    Uber app that would allow users to manage all their on-ground transportation needs during vacations through the Uber app.</p>
-                  <a 
-                    href="https://www.figma.com/deck/mQV6eAhLbqCBAFYZz3uKFT/Uber-Vacations?node-id=1-42&t=HYqQtdOO8Y7DF6VZ-1" 
-                    target="_blank" 
-                    rel="noopener noreferrer" 
-                    className="case-study-link"
-                  >
-                    View Presentation
-                  </a>
-                </div>
+              <section className="publications">
+                <h2>Publications & Research</h2>
+                <Publication
+                  title="Beyond Benchmarks: Introducing Sentiment Spread for Better LLM Summarization in Vertical-Specific Content"
+                  venue="Medium"
+                  description="Explored a new metric to improve LLM summarization in vertical-specific content summarization"
+                  link="https://medium.com/@vinayrao/beyond-benchmarks-introducing-sentiment-spread-for-better-llm-summarization-in-vertical-specific-1a3caed3b9f8"
+                />
+                <Publication
+                  title="On-Device AI for Chat Applications: Enhancing Privacy and Productivity through Tonality-Driven Paraphrasing"
+                  venue="ICT4SD 2025"
+                  description="Selected for presentation at ICT4SD 2025 conference"
+                  link="https://ict4sd.org/cfp.php"
+                />
+                <Publication
+                  title="Using Natural Language Processing to Translate Plain Text into Pythonic Syntax in Kannada"
+                  venue="ResearchGate"
+                  link="https://www.researchgate.net/publication/345944524_Using_Natural_Language_Processing_to_Translate_Plain_Text_into_Pythonic_Syntax_in_Kannada"
+                />
+                <Publication
+                  title="AI Model to Predict System Operation Failures using Incremental Log Analysis"
+                  venue="Cisco Developer Conference"
+                  link="https://medium.com/analytics-vidhya/ai-model-to-predict-system-operation-failures-using-incremental-log-analysis-using-the-fast-ai-2764d4c4cf04"
+                  description="Presented at Cisco developer conference, focusing on AI-driven failure prediction based on incremental log analysis"
+                />
+                <Publication
+                  title="AI Driven Test Tag Predictor"
+                  venue="Technical Disclosure Commons"
+                  link="https://www.tdcommons.org/dpubs_series/2145/"
+                  description="Published research on automated test tag prediction using AI"
+                />
+                <Publication
+                  title="AI Bug Label Predictor"
+                  venue="Medium"
+                  link="https://medium.com/@vinayrao/associating-bug-labels-automatically-using-multi-label-classification-4459d320b614"
+                  description="Research on automatic bug label prediction using multi-label classification"
+                />
+                <Publication
+                  title="Testing and Troubleshooting Kubernetes Clusters Made Easy"
+                  venue="Medium"
+                  link="https://medium.com/@vinayrao/testing-and-troubleshooting-kubernetes-clusters-made-a-little-easy-cb842b205640"
+                  description="Technical article on log-collector utility for Kubernetes clusters"
+                />
               </section>
 
               <section className="experience">
@@ -78,7 +106,7 @@ function App() {
                   Location="India"
                   Challenge="Building a regulatory risk intelligence platform for Finance, Healthcare, and Supply-chain sectors"
                   Role="Head of Platform Engineering"
-                  ProductManagement="Own end-to-end backend and frontend of the platform (regwatch.carveragents.ai). Designed a DAG-based system to support scalability, currently processing ~1500 feed URLs daily. Also contributing to pre-sales outreach and customer demos, and building proof-of-concepts to showcase platform capabilities."
+                  ProductManagement={<>Own end-to-end backend and frontend of a regulatory risk intelligence SaaS (<a href="https://regwatch.carveragents.ai" target="_blank" rel="noopener noreferrer">regwatch.carveragents.ai</a>), processing 1,500+ feed URLs daily across 116+ jurisdictions.<br />• Volunteered to help with pre-sales outreach and technical demos — translating complex multi-jurisdiction regulatory intelligence into business-value narratives for enterprise stakeholders.<br />• Built a DAG-based agentic architecture with LLMs embedded at the node level — used for URL extraction, data cleaning, and content classification.</>}
                   TechStack="DAG-based distributed system design, full-stack platform ownership (backend + frontend)"
                   Impact="Live regulatory intelligence platform serving Finance, Healthcare, and Supply-chain sectors with 1500+ feed URLs processed daily"
                   Link="https://www.youtube.com/watch?v=UGaOHXnGIUs"
@@ -153,49 +181,21 @@ function App() {
                 />
               </section>
 
-              <section className="publications">
-                <h2>Publications & Research</h2>
-                <Publication
-                  title="Beyond Benchmarks: Introducing Sentiment Spread for Better LLM Summarization in Vertical-Specific Content"
-                  venue="Medium"
-                  description="Explored a new metric to improve LLM summarization in vertical-specific content summarization"
-                  link="https://medium.com/@vinayrao/beyond-benchmarks-introducing-sentiment-spread-for-better-llm-summarization-in-vertical-specific-1a3caed3b9f8"
-                />
-                <Publication
-                  title="On-Device AI for Chat Applications: Enhancing Privacy and Productivity through Tonality-Driven Paraphrasing"
-                  venue="ICT4SD 2025"
-                  description="Selected for presentation at ICT4SD 2025 conference"
-                  link="https://ict4sd.org/cfp.php"
-                />
-                <Publication
-                  title="Using Natural Language Processing to Translate Plain Text into Pythonic Syntax in Kannada"
-                  venue="ResearchGate"
-                  link="https://www.researchgate.net/publication/345944524_Using_Natural_Language_Processing_to_Translate_Plain_Text_into_Pythonic_Syntax_in_Kannada"
-                />
-                <Publication
-                  title="AI Model to Predict System Operation Failures using Incremental Log Analysis"
-                  venue="Cisco Developer Conference"
-                  link="https://medium.com/analytics-vidhya/ai-model-to-predict-system-operation-failures-using-incremental-log-analysis-using-the-fast-ai-2764d4c4cf04"
-                  description="Presented at Cisco developer conference, focusing on AI-driven failure prediction based on incremental log analysis"
-                />
-                <Publication
-                  title="AI Driven Test Tag Predictor"
-                  venue="Technical Disclosure Commons"
-                  link="https://www.tdcommons.org/dpubs_series/2145/"
-                  description="Published research on automated test tag prediction using AI"
-                />
-                <Publication
-                  title="AI Bug Label Predictor"
-                  venue="Medium"
-                  link="https://medium.com/@vinayrao/associating-bug-labels-automatically-using-multi-label-classification-4459d320b614"
-                  description="Research on automatic bug label prediction using multi-label classification"
-                />
-                <Publication
-                  title="Testing and Troubleshooting Kubernetes Clusters Made Easy"
-                  venue="Medium"
-                  link="https://medium.com/@vinayrao/testing-and-troubleshooting-kubernetes-clusters-made-a-little-easy-cb842b205640"
-                  description="Technical article on log-collector utility for Kubernetes clusters"
-                />
+              <section className="product-case-studies">
+                <h2>Product Case Studies</h2>
+                <div className="case-study-item">
+                  <h3>Uber Vacations</h3>
+                  <p>A product hypothesis to increase revenue by increasing the number of transactions per user on the Uber app. This presentation explores a new product within the
+                    Uber app that would allow users to manage all their on-ground transportation needs during vacations through the Uber app.</p>
+                  <a
+                    href="https://www.figma.com/deck/mQV6eAhLbqCBAFYZz3uKFT/Uber-Vacations?node-id=1-42&t=HYqQtdOO8Y7DF6VZ-1"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="case-study-link"
+                  >
+                    View Presentation
+                  </a>
+                </div>
               </section>
 
               <section className="education">
