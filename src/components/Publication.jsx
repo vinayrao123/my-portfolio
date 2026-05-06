@@ -1,4 +1,4 @@
-function Publication({ title, venue, date, link, description }) {
+function Publication({ title, venue, date, link, description, siteLink }) {
   return (
     <div className="publication">
       <div className="publication-header">
@@ -15,6 +15,11 @@ function Publication({ title, venue, date, link, description }) {
       </div>
       {venue && <p className="publication-venue">{venue}</p>}
       {description && <p className="publication-description">{description}</p>}
+      {siteLink && (
+        <p className="case-study-link">
+          <a href={siteLink} target="_blank" rel="noopener noreferrer">View Website →</a>
+        </p>
+      )}
     </div>
   );
 }

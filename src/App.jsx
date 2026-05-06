@@ -56,6 +56,11 @@ function App() {
               <section className="publications">
                 <h2>Publications & Research</h2>
                 <Publication
+                  title="Evolution of Product Testing Using Intent Graphs [WIP]"
+                  venue="Work in Progress"
+                  description="A framework to move product testing from the syntactic level to the semantic level. The idea is to construct an intent graph — a structured representation of what a product should do and what it should not do — which serves as the grounding truth for the product. Every feature must map to a node in the 'should do' subgraph and must not map to any node in the 'should not do' subgraph. Once mapped, test cases are derived from the associated node, its siblings, its parents, and its children, ensuring coverage that reflects product intent rather than just code structure."
+                />
+                <Publication
                   title="Beyond Benchmarks: Introducing Sentiment Spread for Better LLM Summarization in Vertical-Specific Content"
                   venue="Medium"
                   description="Explored a new metric to improve LLM summarization in vertical-specific content summarization"
@@ -66,6 +71,12 @@ function App() {
                   venue="ICT4SD 2025"
                   description="Selected for presentation at ICT4SD 2025 conference"
                   link="https://ict4sd.org/cfp.php"
+                />
+                <Publication
+                  title="collegeportfolios.work"
+                  venue="Side Project"
+                  description="A platform for students to showcase what they've built, not just what they know. The hypothesis: resumes that list tech skills are losing signal as building has become increasingly accessible. Students should be able to demonstrate a bias for action — turning ideas into working products and building up a portfolio of evidence. As LLMs lower the barrier to execution, the differentiator shifts from knowing a stack to showing what you did with it."
+                  siteLink="https://collegeportfolios.work"
                 />
                 <Publication
                   title="Using Natural Language Processing to Translate Plain Text into Pythonic Syntax in Kannada"
